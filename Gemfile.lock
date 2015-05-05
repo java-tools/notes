@@ -15,7 +15,9 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     ffi (1.9.6-x64-mingw32)
+    ffi (1.9.6-x86-mingw32)
     hitimes (1.2.2)
+    hitimes (1.2.2-x86-mingw32)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -47,18 +49,18 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    octopress (3.0.0.rc.33)
-      jekyll (~> 2.0)
+    octopress (3.0.0)
+      jekyll (~> 2.5)
       mercenary (~> 0.3.2)
       octopress-deploy
       octopress-escape-code (~> 2.0)
       octopress-hooks (~> 2.0)
       titlecase
-    octopress-deploy (1.1.0)
+    octopress-deploy (1.2.3)
       colorator
     octopress-escape-code (2.0.6)
       octopress-hooks (~> 2.0)
-    octopress-hooks (2.4.1)
+    octopress-hooks (2.6.0)
       jekyll (~> 2.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -83,9 +85,10 @@ GEM
 PLATFORMS
   ruby
   x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   jekyll
   jekyll-sitemap
-  octopress (~> 3.0.0.rc.12)
+  octopress (~> 3.0.0)
   rouge
